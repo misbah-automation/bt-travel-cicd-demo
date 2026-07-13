@@ -1,0 +1,25 @@
+{
+  "name": "bt-travel-cicd-demo",
+  "version": "1.0.0",
+  "description": "A Playwright CI/CD proof of concept demonstrating automated login testing and deployment through GitHub Actions.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "http-server app -p 3000 -c-1",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1",
+    "http-server": "^14.1.1"
+  }
+}
