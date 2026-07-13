@@ -1,6 +1,6 @@
 const demoUser = {
   email: 'qa@bttravel.demo',
-  password: 'Test@13',
+  password: 'Test@123',
   displayName: 'QA Demo User',
 };
 
